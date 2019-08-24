@@ -11,7 +11,7 @@ class flexTemplate:
 	def __init__(self):
 		return None
 
-	def contoh():
+	def contoh(self):
 		this = {
   "type": "bubble",
   "hero": {
