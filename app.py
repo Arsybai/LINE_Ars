@@ -83,12 +83,13 @@ def handle_message(event):
 	line = line_bot_api
 #===============================================================================[ ARSYBAI FUNC ]
 	def getProfile(sender):
-		profile = line_bot_api.get_profile(sender)
+		profile = line_bot_api.get_profile(sender).display_name
 		"""
 		argument:
 		- display_name
 		- status_message
 		"""
+		return profile
 
 	def sendMessage(tx):
 		"""
