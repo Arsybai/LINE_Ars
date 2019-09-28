@@ -22,8 +22,6 @@ import urllib, urllib3, urllib.parse, codecs
 from urllib.parse import quote
 from bs4 import BeautifulSoup
 from pytube import YouTube
-#from fuzzy.logic import matching
-#from spo.main import assu
 from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
     SourceUser, SourceGroup, SourceRoom,
@@ -42,12 +40,6 @@ app = Flask(__name__)
 line_bot_api = LineBotApi('TOKEN DISINI YA BUJANK')
 handler = WebhookHandler('DISINI SECREET')
 flex = flexTemplate()
-#fuzz = matching()
-#spo = assu()
-#===================[ DATABASE ]==========================
-#admin = 'U3df4b705c523d882af0197e8aab7807b'
-#autochat = []
-#shut_ = []
 #===================[ LINKE STARTO ]=====================	
 @app.route('/')
 def helo():
