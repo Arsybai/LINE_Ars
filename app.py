@@ -105,7 +105,7 @@ def handle_message(event):
 		"""
 		Sending a Video
 		param :
-		- Video URL (must url not a patch)
+		- Video URL (must url)
 		- Thumbnail URL (image url)
 		"""
 		message = VideoSendMessage(original_content_url=thumb,preview_image_url=video)
@@ -141,7 +141,7 @@ def handle_message(event):
 		"""
 		Sending a Image
 		param :
-		- Image URL (must url not patch)
+		- Image URL (must url)
 		"""
 		message = ImageSendMessage(original_content_url='{}'.format(str(url)),preview_image_url='{}'.format(str(url)))
 		line_bot_api.reply_message(event.reply_token, message)
