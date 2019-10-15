@@ -158,7 +158,7 @@ def handle_message(event):
 		"""
 		message1 = TextSendMessage(text='Halo kampank')
 		message2 = TextSendMessage(text='how are you?')
-		#and more
+		#and more (Max 5)
 		sendMessageV2([message1,message2])
 
 	if text == 'flex':
@@ -175,7 +175,7 @@ def handle_message(event):
 		( template in flex.py file )
 		"""
 		message = [flex.contoh(), flex.contoh(), flex.contoh(), flex.contoh(), flex.contoh()]
-		#just add more template :3
+		#just add more template :3 (Max 10)
 		sendFlex(alt='THIS IS CAROUSEL MESSAGE', content=message)
 
 #===============================================================================[ END ]
