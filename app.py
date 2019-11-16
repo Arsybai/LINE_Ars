@@ -145,7 +145,21 @@ def handle_message(event):
 		"""
 		message = ImageSendMessage(original_content_url='{}'.format(str(url)),preview_image_url='{}'.format(str(url)))
 		line_bot_api.reply_message(event.reply_token, message)
+		
+	def quickItem(label, tx):
+		qi = QuickReplyButton(action=MessageAction(label=label, text=tx))
+		return qi
+	def sendMessageWithQuickReply(tx,items):
+		message = TextSendMessage(text=tx,quick_reply=QuickReply(items=items))
+		line_bot_api.reply_message(event.reply_token, message)
 #===============================================================================[ STARTO ]
+	if text == 'quickReply':
+		"""
+		This is for send Text message with quick reply
+		"""
+		items = [quickItem('Hello','Hello')]
+		sendMessageWithQuickReply('hi',items)
+	
 	if text == 'hi':
 		"""
 		this is example if u just want to send a text message
