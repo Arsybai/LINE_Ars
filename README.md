@@ -1,4 +1,4 @@
-# LINE_hehe
+# LINE_Ars
 
 
 ## Made by
@@ -14,4 +14,4 @@
   - channelScreet
   ```
   
-## Thx dude Hehe
+## Thx
