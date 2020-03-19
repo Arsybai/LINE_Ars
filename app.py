@@ -21,7 +21,6 @@ import tempfile
 import urllib, urllib3, urllib.parse, codecs
 from urllib.parse import quote
 from bs4 import BeautifulSoup
-from pytube import YouTube
 from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
     SourceUser, SourceGroup, SourceRoom,
