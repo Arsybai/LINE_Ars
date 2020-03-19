@@ -2,7 +2,7 @@
 
 
 ## Made by
-  - [Arsybai](https://arsybai.xyz)
+  - [Arsybai](https://arsybai.com)
 
 
 ## For ask something
