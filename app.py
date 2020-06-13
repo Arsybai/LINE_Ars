@@ -189,7 +189,7 @@ def handle_message(event):
 		"""
 		message = [flex.contoh(), flex.contoh(), flex.contoh(), flex.contoh(), flex.contoh()]
 		#just add more template :3 (Max 10)
-		sendFlex(alt='THIS IS CAROUSEL MESSAGE', content=message)
+		sendFlex(alt='THIS IS CAROUSEL MESSAGE', contents=message)
 
 #===============================================================================[ END ]
 import os
