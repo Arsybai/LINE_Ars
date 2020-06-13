@@ -151,7 +151,7 @@ class flexTemplate:
         "action": {
           "type": "uri",
           "label": "WEBSITE",
-          "uri": "https://arsybai.xyz"
+          "uri": "https://arsybai.com"
         }
       },
       {
